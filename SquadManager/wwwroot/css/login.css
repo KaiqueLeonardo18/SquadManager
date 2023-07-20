@@ -1,0 +1,43 @@
+﻿section{
+    flex-direction:column;
+    display: flex;
+    width: 500px;
+    align-items: center;
+    border: 1px solid #000;
+    margin: 100px auto;
+}
+
+form{
+    display: flex;
+    flex-direction:column;
+}
+
+form a{
+    text-align: right;
+}
+
+input{
+    margin-top: 20px;
+}
+
+button{
+    margin: 20px 0;
+    background-color: #7dc87d;
+    border: none;
+    border-radius:3px;
+    color: #fff;
+    height:50px;
+}
+
+label{
+    margin-bottom:30px
+}
+
+.error {
+    height: 20px;
+}
+
+.error span{
+    color:red;
+}
+
